@@ -1,0 +1,118 @@
+decorative-glass-title: "&6FunTime.me"
+
+currencies:
+  VAULT:
+    enabled: true
+    name: "Монеты"
+    item: SUNFLOWER
+    min-bet: 10000
+    max-bet: 50000000
+    step: 100000
+    big-step: 1000000
+  DIAMONDS:
+    enabled: true
+    name: "Алмазы"
+    item: DIAMOND
+    min-bet: 1
+    max-bet: 1000
+    step: 1
+    big-step: 10
+  SILVER:
+    enabled: true
+    name: "Серебро"
+    item: IRON_NUGGET
+    min-bet: 1
+    max-bet: 5000
+    step: 10
+    big-step: 64
+  NETHERITE:
+    enabled: true
+    name: "Незерит"
+    item: NETHERITE_INGOT
+    min-bet: 1
+    max-bet: 100
+    step: 1
+    big-step: 5
+
+roulette:
+  spin-ticks: 80
+  sound-tick: BLOCK_NOTE_BLOCK_HAT
+  sound-win: ENTITY_PLAYER_LEVELUP
+  sound-lose: BLOCK_CHEST_CLOSE
+  items:
+    coal:
+      material: COAL
+      name: "&8Уголь"
+      multiplier: 0.0
+      weight: 25
+    iron:
+      material: IRON_INGOT
+      name: "&fЖелезо"
+      multiplier: 0.5
+      weight: 30
+    gold:
+      material: GOLD_INGOT
+      name: "&eЗолото"
+      multiplier: 1.0
+      weight: 20
+    emerald:
+      material: EMERALD
+      name: "&aИзумруд"
+      multiplier: 1.5
+      weight: 12
+    diamond:
+      material: DIAMOND
+      name: "&bАлмаз"
+      multiplier: 2.0
+      weight: 8
+    netherite:
+      material: NETHERITE_INGOT
+      name: "&8Незерит"
+      multiplier: 3.0
+      weight: 4
+    star:
+      material: NETHER_STAR
+      name: "&dЗвезда Незера"
+      multiplier: 5.0
+      weight: 1
+
+minesweeper:
+  total-tiles: 25
+  bomb-count: 4
+  sound-reveal: ENTITY_EXPERIENCE_ORB_PICKUP
+  sound-explode: ENTITY_GENERIC_EXPLODE
+  sound-win: ENTITY_PLAYER_LEVELUP
+  multipliers:
+    - 1.2
+    - 1.5
+    - 2.0
+    - 2.7
+    - 3.8
+    - 5.5
+    - 8.0
+    - 12.0
+    - 18.0
+    - 28.0
+    - 45.0
+    - 75.0
+    - 130.0
+    - 240.0
+    - 480.0
+    - 1000.0
+    - 2500.0
+    - 6000.0
+    - 15000.0
+    - 40000.0
+    - 100000.0
+
+horseraces:
+  track-length: 9
+  tick-interval: 4
+  sound-step: ENTITY_HORSE_GALLOP
+  sound-win: ENTITY_PLAYER_LEVELUP
+  sound-lose: ENTITY_VILLAGER_NO
+  multipliers:
+    first-place: 2.0
+    second-place: 1.0
+    third-place: 0.5
+    fourth-place: 0.0

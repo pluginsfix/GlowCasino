@@ -1,0 +1,16 @@
+name: GlowCasino
+version: 1.0.0
+main: pluginsfix.glowcasino.GlowCasino
+api-version: '1.21'
+author: pluginsfix
+softdepend:
+  - Vault
+  - PlaceholderAPI
+commands:
+  casino:
+    description: Open casino main menu
+    permission: glowcasino.use
+    aliases:
+      - glowcasino
+      - kzk
+      - kasino
